@@ -19,8 +19,8 @@ This project is a FastAPI-based backend for generating weekly meal plans optimiz
 1. **Clone the repo**:
 
 ```bash
-git clone https://github.com/yourusername/meal-planing-app.git
-cd meal-planing-app
+git clone https://github.com/Tarto2a/Fitness-app-withDE.git
+cd Fitness-app-withDE
 ```
 
 2. **Create a virtual environment**:
