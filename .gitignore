@@ -172,3 +172,20 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# VS Code settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# FastAPI logs or compiled data
+*.log
+
+# JSON datasets (if private)
+*.json
+
+# Node or frontend cache (if you have frontend files)
+node_modules/
+dist/
