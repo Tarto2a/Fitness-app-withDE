@@ -1,0 +1,58 @@
+GA
+Execution Time: 23.04 seconds
+
+Average Accuracy (%):
+Calories: 90.93%
+Protein: 88.76%
+Fat: 92.89%
+Carbs: 47.59%
+------------------------------------------------
+
+POS
+Execution Time: 4.04 seconds
+
+Average Accuracy (%):
+Calories: 83.29%
+Protein: 75.42%
+Fat: 74.28%
+Carbs: 42.18%
+-------------------------------------------------
+
+RRHC
+Execution Time: 78.58 seconds
+
+Average Accuracy (%):
+Calories: 94.39%
+Protein: 96.43%
+Fat: 96.6%
+Carbs: 51.93%
+--------------------------------------------------
+
+SA
+Execution Time: 131.23 seconds
+
+Average Accuracy (%):
+Calories: 95.41%
+Protein: 96.96%
+Fat: 97.84%
+Carbs: 51.99%
+---------------------------------------------------
+
+DE
+Execution Time: 3.32 seconds
+
+Average Accuracy (%):
+Calories: 89.46%
+Protein: 81.9%
+Fat: 89.02%
+Carbs: 46.74%
+----------------------------------------------------
+
+LP
+Execution Time: 2.30 seconds
+
+Average Accuracy (%):
+Calories: 75.0%
+Protein: 53.1%
+Fat: 85.57%
+Carbs: 78.68%
