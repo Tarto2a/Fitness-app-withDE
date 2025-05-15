@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "front": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "de": "uvicorn src.data.optimization.DE:app --reload"
+    "back": "uvicorn src.data.optimization.DE:app --reload"
   },
   "dependencies": {
     "react": "^19.0.0",
