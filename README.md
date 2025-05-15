@@ -14,21 +14,6 @@ This project is a FastAPI-based backend for generating weekly meal plans optimiz
 
 ---
 
-## 📂 Project Structure
-
-```
-meal-planing-app/
-│
-├── main.py                      # FastAPI application with DE algorithm
-├── requirements.txt             # Python dependencies
-├── README.md                    # Project overview and instructions
-└── src/
-    └── data/
-        └── processed_FoodData_Central_sr_legacy_food_json_2021-10-28.json  # Nutritional dataset
-```
-
----
-
 ## ⚙️ Installation
 
 1. **Clone the repo**:
@@ -38,11 +23,11 @@ git clone https://github.com/yourusername/meal-planing-app.git
 cd meal-planing-app
 ```
 
-2. **Create a virtual environment** (optional but recommended):
+2. **Create a virtual environment**:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source venv/bin/activate 
 ```
 
 3. **Install dependencies**:
@@ -58,13 +43,15 @@ pip install -r requirements.txt
 Start the FastAPI app using Uvicorn:
 
 ```bash
-uvicorn main:app --reload
+cd meal-planing-app
+npm run back
 ```
 
-Once running, open your browser to:
+## ▶️ Running the App
 
-```
-http://127.0.0.1:8000/docs
+```bash
+cd meal-planing-app
+npm run front
 ```
 
 You'll see an interactive Swagger UI where you can test the `/weekly-plan` endpoint.
@@ -102,14 +89,3 @@ http://127.0.0.1:8000/weekly-plan?target_calories=1800&target_protein=90&target_
 
 The optimization is powered by **Differential Evolution**, which evolves a population of meal plans across generations to minimize nutritional deviation from the target vector.
 
----
-
-## 📜 License
-
-This project is open-source under the MIT License.
-
----
-
-## 📫 Contact
-
-For questions or contributions, feel free to open an issue or contact [yourname@email.com].
