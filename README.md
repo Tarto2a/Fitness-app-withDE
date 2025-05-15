@@ -47,7 +47,7 @@ cd meal-planing-app
 npm run back
 ```
 
-## ▶️ Running the App
+start the fronend using Vite:
 
 ```bash
 cd meal-planing-app
